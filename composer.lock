@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "24073eba2556eaa377eb2ca6ec195304",
+    "hash": "0b85ca3d462b973e5554408f7b11def1",
     "packages": [
         {
             "name": "composer/installers",
@@ -451,6 +451,126 @@
                 "wordpress"
             ],
             "time": "2013-11-30 13:14:44"
+        },
+        {
+            "name": "wpackagist/advanced-excerpt",
+            "version": "trunk",
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/advanced-excerpt.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/extend/plugins/advanced-excerpt"
+        },
+        {
+            "name": "wpackagist/akismet",
+            "version": "trunk",
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/akismet.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/extend/plugins/akismet"
+        },
+        {
+            "name": "wpackagist/google-analytics-for-wordpress",
+            "version": "trunk",
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/google-analytics-for-wordpress.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/extend/plugins/google-analytics-for-wordpress"
+        },
+        {
+            "name": "wpackagist/redirection",
+            "version": "trunk",
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/redirection.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/extend/plugins/redirection"
+        },
+        {
+            "name": "wpackagist/share-this",
+            "version": "trunk",
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/share-this.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/extend/plugins/share-this"
+        },
+        {
+            "name": "wpackagist/w3-total-cache",
+            "version": "trunk",
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/w3-total-cache.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/extend/plugins/w3-total-cache"
+        },
+        {
+            "name": "wpackagist/wordpress-seo",
+            "version": "trunk",
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/wordpress-seo.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/extend/plugins/wordpress-seo"
+        },
+        {
+            "name": "wpackagist/wp-syntax",
+            "version": "trunk",
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/wp-syntax.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/extend/plugins/wp-syntax"
         }
     ],
     "packages-dev": [
