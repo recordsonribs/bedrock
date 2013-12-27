@@ -5,6 +5,14 @@
       "url": "http://wpackagist.org"
     },
     {
+      "url": "https://github.com/recordsonribs/ribcage",
+      "type": "vcs"
+    }, 
+    {
+      "url": "https://github.com/recordsonribs/ror",
+      "type": "vcs"
+    },
+    {
       "type": "package",
       "package": {
         "name": "wordpress",
@@ -35,12 +43,16 @@
     "wpackagist/w3-total-cache": "*",
     "wpackagist/wordpress-seo": "*",
     "wpackagist/wp-syntax": "*",
-    "wpackagist/google-analytics-for-wordpress": "*"
+    "wpackagist/google-analytics-for-wordpress": "*",
+
+    "recordsonribs/ribcage": "dev-master",
+    "recordsonribs/ror": "dev-master"
   },
   "extra": {
     "installer-paths": {
       "app/plugins/{$name}/": ["type:wordpress-plugin"],
-      "app/mu-plugins/{$name}/": ["type:wordpress-muplugin"]
+      "app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "app/themes/{$name}/": ["type:wordpress-theme"]
     },
     "webroot-dir": "wp",
     "webroot-package": "wordpress"
